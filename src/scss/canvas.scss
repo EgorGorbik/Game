@@ -7,7 +7,7 @@
 
 #canvas {
    
-    margin-top: 10%;
+    margin-top: 100px;
     
 }
 
@@ -18,19 +18,19 @@
 
 #canvas2 {
     position: absolute;
-    margin-top: 14%;
-    margin-left: 750px;
+    margin-top: 190px;
+    right: 410px;
 }
 
 #canvas3 {
     position: absolute;
-    margin-top: 14%;
-    margin-left: 1100px;
+    margin-top: 190px;
+    right: 50px;
 }
 
 #canvas4 {
     margin-left: 600px;
-    margin-top: 20%;
+    margin-top: 250px;
     position: absolute;
 }
 
@@ -61,26 +61,26 @@
 
 #body {
     position: absolute;
-    margin-left:400px;
-    margin-top: 14%;
+    right:200px;
+    margin-top: 190px;
 }
 
 #head {
     position: absolute;
-    margin-left:450px;
-    margin-top: 1%;
+    right:250px;
+    
 }
 
 #leg-left {
     position: absolute;
-    margin-left:400px;
-    margin-top: 32%;
+    right:350px;
+    margin-top: 430px;
 }
 
 #leg-right {
     position: absolute;
-    margin-left:540px;
-    margin-top: 32%;
+    right:200px;
+    margin-top: 430px;
 }
 
 #win_message {
