@@ -1,0 +1,50 @@
+.scoreboard {
+    background-color: yellow;
+    width: 50%;
+    height: 10%;
+    margin: 0 auto;
+}
+
+p {
+    text-align: center;
+    
+    font-weight: 900;
+    font-size: 25px;
+    color: red;
+}
+
+.names,
+.hp {
+    display: flex;
+    flex-direction: row;
+}
+
+.meHp,
+.monsterHp {
+    display: flex;
+    flex-direction: row;
+    border: 3px solid  blue;
+    width: 270px;
+    height: 20px;
+    margin: 0 auto;
+}
+
+#positiv_monster {
+    width: 270px;
+    background-color: green;
+}
+
+#negativ_monster {
+    width: 0%;
+    background-color: white;
+}
+
+#positiv_me {
+    width: 270px;
+    background-color: green;
+}
+
+#negativ_me {
+    width: 0%;
+    background-color: white;
+}

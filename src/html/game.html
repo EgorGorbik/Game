@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Заклинание</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel='stylesheet' href='../../dist/style.css'>
+    </head>
+    <body>
+        <div class="one1">
+                
+
+
+                <div id="prompt-form-container">
+                  <form id="prompt-form" >
+                    <div id="prompt-message"></div>
+                    <input name="text" type="text">
+                    <input type="submit" value="Ок" id="ok">
+                    <input type="button" name="cancel" value="Отмна">
+                  </form>
+                </div>
+
+                <div id="select-task">
+                        <form id="select-form" >
+                          <div id="select-message"></div>
+                          <div id="select_type">
+                          <button type="button" id="math">Математика</button>
+                          <button type="button" id="translate">Перевод</button>
+                          </div>
+                          <input type="submit" value="Ок" id="ok">
+                          <input type="button" name="cancel" value="Отмна">
+                        </form>
+                      </div>
+                
+                      <div id="math-container">
+                            <form id="math-form" >
+                              <div id="math-message"></div>
+                              <div id="example">
+                                  <p></p>
+                                  <p></p>
+                                  <p></p>
+                                  <p>==</p>
+                              <input name="text" type="text">
+                              </div>
+                              <input type="submit" value="Ок" id="ok_math">
+                              <input type="button" name="cancel" value="Отмна">
+                            </form>
+                          </div>
+
+                          <div id="translate-container">
+                                <form id="translate-form" >
+                                  <div id="translate-message"></div>
+                                  <div id="translator">
+                                      <p></p>
+                                  <input name="text" type="text">
+                                  </div>
+                                  <input type="submit" value="Ок" id="ok_math">
+                                  <input type="button" name="cancel" value="Отмна">
+                                </form>
+                              </div>
+                
+
+
+            <div class="scoreboard">
+                <div class="names">
+                <p></p>
+                <p></p>
+            </div>
+            <div class="hp">
+                <div class="meHp">
+                        <div id="positiv_me"></div>
+                        <div id="negativ_me"></div>
+                </div>
+                <div class="monsterHp">
+                    <div id="positiv_monster"></div>
+                    <div id="negativ_monster"></div>
+                </div>
+            </div>
+            </div>
+            <div class="playground">
+            <canvas id="canvas" width="500" height="400"></canvas>
+            <img src="" id="image"/>
+            <canvas id="canvas1" width="500" height="400"></canvas>
+            <img src="" id="image2"/>
+            <canvas id="canvas2" width="200" height="300"></canvas>
+            <canvas id="canvas4" width="300" height="300"></canvas>
+            <img src="" id="image3"/>
+            <canvas id="canvas5" width="300" height="300"></canvas>
+            <img src="" id="image4"/>
+            <canvas id="canvas6" width="500" height="500"></canvas>
+            <img src="" id="image5"/>
+            <div id="win_message"><h1>Ты выиграл!</h1></div>
+           
+            <canvas id="canvas3" width="200" height="300"></canvas>
+            <div class="monster">
+                    <img  id="head" src="../img/head.png"  height="30%"/>
+            <div class="torso">
+            <img id="left-arm" src="" />
+            <img id="body" src="../img/body.png" />
+            <img id ="right-arm" src="" />
+            </div>
+            <div class="legs">
+                    <img id="leg-left" src="../img/leg-left.png" />
+                    <img id="leg-right" src="../img/leg-right.png" />
+            </div>
+            </div>
+            </div>
+        </div>
+
+        <script type="text/javascript" src="../../dist/bundle.js"></script>
+    </body>
+</html>

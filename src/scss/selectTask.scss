@@ -1,0 +1,66 @@
+html,
+body,
+p {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#select-form {
+    display: inline-block;
+    padding: 5px 5px 5px 5px;
+    width: 200px;
+    border: 1px solid black;
+    background: white  no-repeat left 5px;
+    vertical-align: middle;
+  }
+
+  #select_type {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #select_type > button {
+    width: 50%;
+    margin: 2% auto;
+    
+  }
+
+  #select-task {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    display: none;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+  }
+
+  #select-task:before {
+    display: inline-block;
+    height: 100%;
+    content: '';
+    vertical-align: middle;
+  }
+
+  #cover-div {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9000;
+    width: 100%;
+    height: 100%;
+    
+  }
+
+  #select-form input[name="text"] {
+    display: block;
+    margin: 5px;
+    width: 180px;
+  }
+
+  button {
+      cursor: pointer;
+  }
