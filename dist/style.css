@@ -8,6 +8,75 @@ html, body {
 
 html {
   height: 100%; }
+.playground,
+.torso,
+.legs {
+  display: flex;
+  flex-direction: row; }
+
+#canvas {
+  margin-top: 100px; }
+
+#canvas1 {
+  position: absolute;
+  margin-top: 100px; }
+
+#canvas2 {
+  position: absolute;
+  margin-top: 190px;
+  right: 410px; }
+
+#canvas3 {
+  position: absolute;
+  margin-top: 190px;
+  right: 50px; }
+
+#canvas4 {
+  right: 450px;
+  margin-top: 250px;
+  position: absolute; }
+
+#canvas5 {
+  right: 310px;
+  position: absolute; }
+
+#canvas6 {
+  margin-left: 400px;
+  position: fixed; }
+
+#left-arm {
+  position: absolute;
+  margin-top: 200px; }
+
+#right-arm {
+  position: absolute;
+  margin-left: 0%;
+  margin-top: 14%; }
+
+#body {
+  position: absolute;
+  right: 200px;
+  margin-top: 190px; }
+
+#head {
+  position: absolute;
+  right: 250px; }
+
+#leg-left {
+  position: absolute;
+  right: 350px;
+  margin-top: 430px; }
+
+#leg-right {
+  position: absolute;
+  right: 200px;
+  margin-top: 430px; }
+
+#win_message {
+  position: absolute;
+  margin-left: 30%;
+  margin-top: 12%;
+  display: none; }
 h1 {
   color: red;
   font-family: "Roboto";
@@ -77,75 +146,6 @@ i {
   position: absolute;
   top: 120%;
   left: 35%; }
-.playground,
-.torso,
-.legs {
-  display: flex;
-  flex-direction: row; }
-
-#canvas {
-  margin-top: 100px; }
-
-#canvas1 {
-  position: absolute;
-  margin-top: 10%; }
-
-#canvas2 {
-  position: absolute;
-  margin-top: 190px;
-  right: 410px; }
-
-#canvas3 {
-  position: absolute;
-  margin-top: 190px;
-  right: 50px; }
-
-#canvas4 {
-  margin-left: 600px;
-  margin-top: 250px;
-  position: absolute; }
-
-#canvas5 {
-  margin-left: 55%;
-  position: absolute; }
-
-#canvas6 {
-  margin-left: 25%;
-  position: fixed; }
-
-#left-arm {
-  position: absolute;
-  margin-top: 200px; }
-
-#right-arm {
-  position: absolute;
-  margin-left: 0%;
-  margin-top: 14%; }
-
-#body {
-  position: absolute;
-  right: 200px;
-  margin-top: 190px; }
-
-#head {
-  position: absolute;
-  right: 250px; }
-
-#leg-left {
-  position: absolute;
-  right: 350px;
-  margin-top: 430px; }
-
-#leg-right {
-  position: absolute;
-  right: 200px;
-  margin-top: 430px; }
-
-#win_message {
-  position: absolute;
-  margin-left: 30%;
-  margin-top: 12%;
-  display: none; }
 .scoreboard {
   background-color: yellow;
   width: 50%;
