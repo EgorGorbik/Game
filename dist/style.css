@@ -93,15 +93,15 @@ i {
 #canvas2 {
   position: absolute;
   margin-top: 14%;
-  margin-left: 55%; }
+  margin-left: 750px; }
 
 #canvas3 {
   position: absolute;
   margin-top: 14%;
-  margin-left: 80%; }
+  margin-left: 1100px; }
 
 #canvas4 {
-  margin-left: 47%;
+  margin-left: 600px;
   margin-top: 20%;
   position: absolute; }
 
@@ -115,7 +115,7 @@ i {
 
 #left-arm {
   position: absolute;
-  margin-top: 14%; }
+  margin-top: 200px; }
 
 #right-arm {
   position: absolute;
@@ -124,22 +124,22 @@ i {
 
 #body {
   position: absolute;
-  margin-left: 30%;
+  margin-left: 400px;
   margin-top: 14%; }
 
 #head {
   position: absolute;
-  margin-left: 33%;
+  margin-left: 450px;
   margin-top: 1%; }
 
 #leg-left {
   position: absolute;
-  margin-left: 29%;
+  margin-left: 400px;
   margin-top: 32%; }
 
 #leg-right {
   position: absolute;
-  margin-left: 39%;
+  margin-left: 540px;
   margin-top: 32%; }
 
 #win_message {
