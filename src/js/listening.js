@@ -1,13 +1,14 @@
 import {wizard_ang, monster_ang} from './canvas';
-var arr = ['cat', 'dog', 'car'];
+var arr = ['cat', 'dog', 'car', 'school', 'pencil', 'boy', 'girl'];
 var word = require('./vocabulary').word;
 var translation = require('./vocabulary').translation;
 document.getElementById('listening').onclick = function() {
-    var j = Math.floor(Math.random() * 2) + 0;
+    var j = Math.floor(Math.random() * 7) + 0;
     var audio2 = new Audio('../audio/listening/listening' + j + '.mp3');
             audio2.play();
     document.getElementById('select-task').style.display = "none";
-    showPrompt("Переведи", function(value) {
+    showPrompt("Напиши, что услышал", function(value) {
+      value = value.toLowerCase();
         var flag = true;
             if (value == arr[j]) {wizard_ang(); flag = false}
         if (flag == true) monster_ang();

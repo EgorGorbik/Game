@@ -3,11 +3,11 @@ import {wizard_ang, monster_ang} from './canvas';
 var word = require('./vocabulary').word;
 var translation = require('./vocabulary').translation;
 document.getElementById('translate').onclick = function() {
-    var index = Math.floor(Math.random() * 2) + 0;
+    var index = Math.floor(Math.random() * 7) + 0;
     document.getElementsByTagName('p')[4].innerHTML = word[index];
     document.getElementById('select-task').style.display = "none";
     showPrompt("Переведи", function(value) {
-       
+       value = value.toLowerCase();
         var flag = true;
         for(var i = 0 ; i < translation[index].length; i++) {
             if (value == translation[index][i]) {wizard_ang(); flag = false}

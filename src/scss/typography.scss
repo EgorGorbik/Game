@@ -81,13 +81,18 @@ right:0;
 }
 
 #author {
-  position: absolute;
+  padding-top: 200px;
   margin-top: 10%;
   margin-left: 20%;
- 
+ margin: 0 auto;
 }
 
 #author > p {
+  color: yellow;
+  font-size: 40px;
+}
+
+a > p {
   color: yellow;
   font-size: 40px;
 }

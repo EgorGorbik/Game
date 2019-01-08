@@ -52,7 +52,7 @@ html {
 
 #start {
   display: inline-block;
-  margin: 10% 37%;
+  margin: 10% 39%;
   vertical-align: middle;
   background-color: Transparent;
   background-repeat: no-repeat;
@@ -136,11 +136,16 @@ i {
   margin: 0 auto; }
 
 #author {
-  position: absolute;
+  padding-top: 200px;
   margin-top: 10%;
-  margin-left: 20%; }
+  margin-left: 20%;
+  margin: 0 auto; }
 
 #author > p {
+  color: yellow;
+  font-size: 40px; }
+
+a > p {
   color: yellow;
   font-size: 40px; }
 
@@ -170,11 +175,11 @@ i {
   flex-direction: row; }
 
 #canvas {
-  margin-top: 200px; }
+  margin-top: 180px; }
 
 #canvas1 {
   position: absolute;
-  margin-top: 200px; }
+  margin-top: 180px; }
 
 #canvas2 {
   position: absolute;
