@@ -1,4 +1,55 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto);@import url(https://fonts.googleapis.com/css?family=Lora);h1 {
+@import url(https://fonts.googleapis.com/css?family=Roboto);@import url(https://fonts.googleapis.com/css?family=Lora);.scoreboard {
+  background-color: yellow;
+  width: 50%;
+  height: 10%;
+  margin: 0 auto; }
+
+p {
+  text-align: center;
+  font-weight: 900;
+  font-size: 25px;
+  color: red; }
+
+.names,
+.hp {
+  display: flex;
+  flex-direction: row; }
+
+.meHp,
+.monsterHp {
+  display: flex;
+  flex-direction: row;
+  border: 3px solid  blue;
+  width: 270px;
+  height: 20px;
+  margin: 0 auto; }
+
+#positiv_monster {
+  width: 270px;
+  background-color: green; }
+
+#negativ_monster {
+  width: 0%;
+  background-color: white; }
+
+#positiv_me {
+  width: 270px;
+  background-color: green; }
+
+#negativ_me {
+  width: 0%;
+  background-color: white; }
+body {
+  background: #ff7b00;
+  height: 100%; }
+
+html, body {
+  padding: 0;
+  margin: 0; }
+
+html {
+  height: 100%; }
+h1 {
   color: red;
   font-family: "Roboto";
   padding: 3em; }
@@ -67,57 +118,6 @@ i {
   position: absolute;
   top: 120%;
   left: 35%; }
-body {
-  background: #ff7b00;
-  height: 100%; }
-
-html, body {
-  padding: 0;
-  margin: 0; }
-
-html {
-  height: 100%; }
-.scoreboard {
-  background-color: yellow;
-  width: 50%;
-  height: 10%;
-  margin: 0 auto; }
-
-p {
-  text-align: center;
-  font-weight: 900;
-  font-size: 25px;
-  color: red; }
-
-.names,
-.hp {
-  display: flex;
-  flex-direction: row; }
-
-.meHp,
-.monsterHp {
-  display: flex;
-  flex-direction: row;
-  border: 3px solid  blue;
-  width: 270px;
-  height: 20px;
-  margin: 0 auto; }
-
-#positiv_monster {
-  width: 270px;
-  background-color: green; }
-
-#negativ_monster {
-  width: 0%;
-  background-color: white; }
-
-#positiv_me {
-  width: 270px;
-  background-color: green; }
-
-#negativ_me {
-  width: 0%;
-  background-color: white; }
 .playground,
 .torso,
 .legs {
@@ -125,20 +125,20 @@ p {
   flex-direction: row; }
 
 #canvas {
-  margin-top: 100px; }
+  margin-top: 10%; }
 
 #canvas1 {
   position: absolute;
-  margin-top: 100px; }
+  margin-top: 10%; }
 
 #canvas2 {
   position: absolute;
-  margin-top: 190px;
+  margin-top: 15%;
   right: 410px; }
 
 #canvas3 {
   position: absolute;
-  margin-top: 190px;
+  margin-top: 15%;
   right: 50px; }
 
 #canvas4 {
@@ -166,7 +166,7 @@ p {
 #body {
   position: absolute;
   right: 200px;
-  margin-top: 190px; }
+  margin-top: 14%; }
 
 #head {
   position: absolute;
@@ -175,12 +175,12 @@ p {
 #leg-left {
   position: absolute;
   right: 350px;
-  margin-top: 430px; }
+  margin-top: 31%; }
 
 #leg-right {
   position: absolute;
   right: 200px;
-  margin-top: 430px; }
+  margin-top: 31%; }
 
 #win_message {
   position: absolute;
