@@ -1,17 +1,15 @@
 import {wizard_ang, monster_ang} from './canvas';
-
+var arr = ['cat', 'dog', 'car'];
 var word = require('./vocabulary').word;
 var translation = require('./vocabulary').translation;
-document.getElementById('translate').onclick = function() {
-    var index = Math.floor(Math.random() * 2) + 0;
-    document.getElementsByTagName('p')[4].innerHTML = word[index];
+document.getElementById('listening').onclick = function() {
+    var j = Math.floor(Math.random() * 2) + 0;
+    var audio2 = new Audio('../audio/listening/listening' + j + '.mp3');
+            audio2.play();
     document.getElementById('select-task').style.display = "none";
     showPrompt("Переведи", function(value) {
-       
         var flag = true;
-        for(var i = 0 ; i < translation[index].length; i++) {
-            if (value == translation[index][i]) {wizard_ang(); flag = false}
-        }
+            if (value == arr[j]) {wizard_ang(); flag = false}
         if (flag == true) monster_ang();
         document.getElementById('select-task').style.display = "none";
         
@@ -30,9 +28,9 @@ function showCover() {
 
   function showPrompt(text, callback) {
     showCover();
-    var form = document.getElementById('translate-form');
-    var container = document.getElementById('translate-container');
-    document.getElementById('translate-message').innerHTML = text;
+    var form = document.getElementById('listening-form');
+    var container = document.getElementById('listening-container');
+    document.getElementById('listening-message').innerHTML = text;
     form.elements.text.value = '';
 
     function complete(value) {

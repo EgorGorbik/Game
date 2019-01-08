@@ -67,9 +67,7 @@ function showCover() {
       return false;
     };
 
-    form.elements.cancel.onclick = function() {
-      complete(null);
-    };
+    
 
     document.onkeydown = function(e) {
       if (e.keyCode == 27) { // escape

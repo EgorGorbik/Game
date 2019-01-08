@@ -1,6 +1,8 @@
 document.getElementById('ok').onclick = function() {
     showPrompt("Выбери", function(value) {
-        document.getElementsByTagName('p')[0].innerHTML = value;
+    
+       // document.getElementsByTagName('p')[0].innerHTML = value;
+        alert(value);
       });
 }
 
@@ -40,9 +42,7 @@ function showCover() {
       return false;
     };
 
-    form.elements.cancel.onclick = function() {
-      complete(null);
-    };
+   
 
     document.onkeydown = function(e) {
       if (e.keyCode == 27) { // escape

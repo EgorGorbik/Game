@@ -5,6 +5,7 @@ import './js/selectTask.js';
 import './js/math.js';
 import './js/translate.js';
 import './js/vocabulary.js';
+import './js/listening.js';
 
 import './scss/base.scss';
 import './scss/typography.scss';
@@ -14,3 +15,4 @@ import './scss/modal.scss';
 import './scss/selectTask.scss';
 import './scss/math.scss';
 import './scss/translate.scss';
+import './scss/listening.scss';

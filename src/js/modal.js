@@ -25,7 +25,10 @@ function showCover() {
 
     form.onsubmit = function() {
       var value = form.elements.text.value;
-      if (value == '') return false; // игнорировать пустой submit
+      if (value == '') {
+        document.getElementById("select-task").style.display = "none";
+        return false;
+       } // игнорировать пустой submit
      //select();
      
       complete(value);
@@ -66,6 +69,7 @@ function showCover() {
 
  
     showPrompt("Как тебя зовут?", function(value) {
+      console.log(value);
       document.getElementsByTagName('p')[5].innerHTML = value;
     });
    
