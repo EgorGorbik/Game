@@ -63,9 +63,43 @@ right:0;
   display: inline;
 }
 
-.second {
+#second {
     height: 100%;
     margin: 0 auto;
+}
+
+#third {
+  background-color: yellow;
+  height: 100%;
+  margin: 0 auto;
+}
+
+#forth {
+  background-color: blue;
+  height: 100%;
+  margin: 0 auto;
+}
+
+#author {
+  position: absolute;
+  margin-top: 10%;
+  margin-left: 20%;
+ 
+}
+
+#author > p {
+  color: yellow;
+  font-size: 40px;
+}
+
+#screen {
+  margin-left: 5%;
+}
+#third > h1 {
+    margin:0;
+    padding:0;
+  margin-left: 10%;
+  font-size: 50px;
 }
 
 #descboard {

@@ -13,3 +13,25 @@ html, body {
 html {
     height: 100%;
 }
+
+#start {
+    display: inline-block;
+    
+    margin: 10% 37%;
+    vertical-align: middle;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+
+}
+
+.one1 > p {
+    color: yellow;
+    font-size: 50px;
+}
+
+.description {
+    font-size: 25px;
+}

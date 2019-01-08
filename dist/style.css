@@ -49,6 +49,23 @@ html, body {
 
 html {
   height: 100%; }
+
+#start {
+  display: inline-block;
+  margin: 10% 37%;
+  vertical-align: middle;
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden; }
+
+.one1 > p {
+  color: yellow;
+  font-size: 50px; }
+
+.description {
+  font-size: 25px; }
 h1 {
   color: red;
   font-family: "Roboto";
@@ -104,9 +121,37 @@ i {
 .one li {
   display: inline; }
 
-.second {
+#second {
   height: 100%;
   margin: 0 auto; }
+
+#third {
+  background-color: yellow;
+  height: 100%;
+  margin: 0 auto; }
+
+#forth {
+  background-color: blue;
+  height: 100%;
+  margin: 0 auto; }
+
+#author {
+  position: absolute;
+  margin-top: 10%;
+  margin-left: 20%; }
+
+#author > p {
+  color: yellow;
+  font-size: 40px; }
+
+#screen {
+  margin-left: 5%; }
+
+#third > h1 {
+  margin: 0;
+  padding: 0;
+  margin-left: 10%;
+  font-size: 50px; }
 
 #descboard {
   width: 80%;
@@ -125,20 +170,20 @@ i {
   flex-direction: row; }
 
 #canvas {
-  margin-top: 10%; }
+  margin-top: 200px; }
 
 #canvas1 {
   position: absolute;
-  margin-top: 10%; }
+  margin-top: 200px; }
 
 #canvas2 {
   position: absolute;
-  margin-top: 15%;
+  margin-top: 190px;
   right: 410px; }
 
 #canvas3 {
   position: absolute;
-  margin-top: 15%;
+  margin-top: 190px;
   right: 50px; }
 
 #canvas4 {
@@ -166,7 +211,7 @@ i {
 #body {
   position: absolute;
   right: 200px;
-  margin-top: 14%; }
+  margin-top: 190px; }
 
 #head {
   position: absolute;
@@ -175,12 +220,12 @@ i {
 #leg-left {
   position: absolute;
   right: 350px;
-  margin-top: 31%; }
+  margin-top: 430px; }
 
 #leg-right {
   position: absolute;
   right: 200px;
-  margin-top: 31%; }
+  margin-top: 430px; }
 
 #win_message {
   position: absolute;
